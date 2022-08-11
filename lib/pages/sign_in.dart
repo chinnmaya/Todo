@@ -202,7 +202,7 @@ class _signinState extends State<signin> {
             child: cirecular
                 ? CircularProgressIndicator()
                 : Text(
-                    "SIGN UP",
+                    "SIGN IN",
                     style: TextStyle(fontSize: 17, color: Colors.white),
                   ),
           )),
